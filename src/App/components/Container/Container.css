@@ -1,0 +1,19 @@
+.container {
+    width: 60%;
+    height: 740px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.array-bar {
+    display: inline-block;
+    background-color: #2056b3;
+    bottom: 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: 10px;
+    }
+}

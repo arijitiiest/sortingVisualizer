@@ -1,0 +1,39 @@
+.body {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.play {
+    padding: 1rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.play button {
+    background-color: #181a3d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0rem 2rem;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 1200px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .play button {
+        padding: 8px 15px;
+        font-size: 14px;
+        margin: 0 1rem;
+    }
+}
