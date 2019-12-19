@@ -2,6 +2,7 @@ import React from 'react';
 
 import routes from '../../data/routes';
 import './Nav.css';
+import Hamburger from '../../components/Nav/Hamburger'
 
 const Nav = () => {
     const logo = routes
@@ -32,6 +33,9 @@ const Nav = () => {
           <ul>{links}</ul>
         </div>
       </nav>
+      <div className="header_toggle-button">
+        <Hamburger />
+      </div>
     </header>
     )
 }
